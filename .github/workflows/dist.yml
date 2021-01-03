@@ -6,7 +6,8 @@ on:
     branches:
     - main
   create:
-    tags:
+    branches:
+    - main
 
 jobs:
   test:
